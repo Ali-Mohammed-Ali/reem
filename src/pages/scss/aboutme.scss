@@ -1,0 +1,486 @@
+.aboutme-container {
+    .aboutme-section {
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+          h4 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            color: #0050ff;
+            font-weight: bold;
+            font-size: 40px;
+            margin: 0;
+            margin-top: 80px; 
+            margin-bottom: 20px;
+          }  
+          span {
+            height: 0.5px;
+            width: 150px;
+            background-color: white;
+          }
+        }
+        .desc {
+          width: 800px;
+          margin: auto;
+          p {
+            color: white;
+            text-align: justify;
+            color: #aaaaaa;
+            line-height: 1.8;
+          }
+        }
+    }
+    .skills {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 600px;
+      margin: auto;
+      margin-top: 80px;
+      .skill-one {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .presentage {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 20px;
+          color: white;
+          background-color: #ffffff;
+          width: 212px;
+          span {
+            width: 182px;
+            height: 50px;
+            background-color: #0050ff;
+          }
+          p {
+            position: absolute;
+            right: 20px;
+            margin-right: 10px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+          }
+        }
+        p {
+          font-family: 'Roboto', sans-serif;
+           text-transform: capitalize;
+           color: white;
+           font-weight: bold;
+           letter-spacing: 1px;
+       }
+      }
+      .skill-two {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .presentage {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 20px;
+          color: white;
+          background-color: #ffffff;
+          width: 212px;
+          span {
+            width: 190px;
+            height: 50px;
+            background-color: #0050ff;
+          }
+          p {
+            position: absolute;
+            right: 13px;
+            margin-right: 10px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+          }
+        }
+        p {
+          font-family: 'Roboto', sans-serif;
+           text-transform: capitalize;
+           color: white;
+           font-weight: bold;
+           letter-spacing: 1px;
+       }
+      }
+      .skill-three {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        .presentage {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 20px;
+          color: white;
+          background-color: #ffffff;
+          width: 212px;
+          span {
+            width: 160px;
+            height: 50px;
+            background-color: #0050ff;
+          }
+          p {
+            position: absolute;
+            right: 45px;
+            margin-right: 10px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+          }
+        }
+        p {
+          font-family: 'Roboto', sans-serif;
+           text-transform: capitalize;
+           color: white;
+           font-weight: bold;
+           letter-spacing: 1px;
+       }
+      }
+      .skill-four {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        .presentage {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: 20px;
+          color: white;
+          background-color: #ffffff;
+          width: 212px;
+          span {
+            width: 150px;
+            height: 50px;
+            background-color: #0050ff;
+          }
+          p {
+            position: absolute;
+            right: 55px;
+            margin-right: 10px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+          }
+        }
+        p {
+           font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+      }
+    }
+    .qoute-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 450px;
+      margin-top: 80px;
+        .info {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          .qoute-icon {
+            color: #0050ff;
+            font-size: 100px;
+           }
+           .qoute-content {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            color:white;
+            width: 400px;
+            font-size: 20px;
+           }
+           .aurthor {
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            border-top: 1px solid #aaa;
+           }
+        }
+        .img {
+          width: 250px;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+      .why-me-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 1200px;
+        margin: auto;
+        margin-top: 80px;
+        gap: 50px;
+        .info {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          width: 500px;
+          gap: 30px;
+          .title {
+            h4 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: bold;
+              text-transform: uppercase;
+              color: #0050ff;
+            }
+          }
+          .content {
+            p {
+              font-family: 'Roboto', sans-serif;
+              text-align: justify;
+              line-height: 1.8;
+              color: white;
+            }
+          }
+        }
+        .img {
+          width: 400px;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+      .what-i-do {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        .jobs {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-around;
+          gap: 60px;
+          .job-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 311px;
+            .img {
+              background-color: white;
+              padding: 20px;
+              margin-bottom: 30px;
+              img {
+                max-width: 100%;
+              }
+            }
+            .title {
+              background-color: #0050ff;
+              h5 {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 30px;
+                margin: 0;
+                padding: 10px 20px;
+              }
+            }
+            .desc {
+              width: 311px;
+              p {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                text-transform: capitalize;
+                text-align: justify;
+              }
+            }
+          } 
+        }
+      }
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 100px;
+        .resume {
+          background-color: #0050ff;
+          padding: 20px;
+          border-radius: 10px;
+          transition: all ease 0.5s;
+          cursor: pointer;
+          &:hover {
+            background-color: transparent;
+            border: 1px solid #0050ff;
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: bold;
+          }
+        }
+        .project {
+          background-color: #0050ff;
+          padding: 20px;
+          border-radius: 10px;
+          transition: all ease 0.5s;
+          cursor: pointer;
+          &:hover {
+            background-color: transparent;
+            border: 1px solid #0050ff;
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: bold;
+          }
+        }
+      }
+      .project-section {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .projects {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 1200px;
+          gap: 50px;
+          .project {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            overflow: hidden;
+            transition: all ease 0.5s;
+            &:hover {
+              box-shadow: 10px 9px 39px -8px rgba(0, 0, 0, 0.52);
+            }
+            &:hover .info {
+              opacity: 1;
+            }
+            .img {
+              width: 300px;
+              cursor: pointer;
+              filter: grayscale(1);
+              transform: scale(1);
+              transition: all ease 0.5s;
+              &:hover {
+                filter: grayscale(0);
+                transform: scale(1.2);
+
+              }
+              img {
+                max-width: 100%;
+              }
+            }
+          }
+          .info {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0050ff;
+            color: white;
+            z-index: 100;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 18px;
+            width: 200px;
+            top: 40%;
+            left: 17%;
+            opacity: 0;
+            transition: all ease 0.5s;
+          }
+        }
+      }
+      .testimonials-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        .testimonials {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          gap: 50px;
+          margin-top: 80px;
+          .testimonial {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            .img {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              overflow: hidden;
+              img {
+                max-width: 100%;
+              }
+            }
+          }
+          .info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 300px;
+            .name {
+              font-family: 'Roboto', sans-serif;
+              text-transform: capitalize;
+              font-weight: bold;
+              font-size: 30px;
+              margin: 0;
+              margin-top: 20px;
+              color: white;
+            }
+            .job-title{
+              font-family: 'Roboto', sans-serif;
+              color: #0050ff;
+              font-weight: bold;
+            }
+            .message {
+              text-align: justify;
+              color: white;
+            }
+          }
+          .message-icon {
+            color: #0050ff;
+            font-size: 30px;
+          }
+        }
+      }
+      .clients-section {
+        margin-top: 80px;
+        margin-bottom: 140px;
+      }
+}

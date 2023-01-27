@@ -1,0 +1,73 @@
+.banner-container {
+background-image: url(../../assets/Reem-Dissoky.jpg);
+height: 1000px;
+background-size:cover;
+    .info {
+        padding-top: 300px;
+        padding-left: 300px;
+
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+            color: #0050ff;
+            font-weight: bold;
+            font-size: 30px;
+            margin: 0;
+
+        }
+        h2 {
+            .Typewriter  {
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-size: 50px;
+                text-transform: uppercase;
+                font-weight: bold;
+    
+            }
+            
+        }
+        .location {
+                display: flex;
+                align-items:center;
+                justify-content: flex-start;
+                margin-top: 60px;                
+                gap: 20px;
+                span {
+                    height: 40px;
+                    width: 0.2px;
+                    background-color: #aaaaaa;
+                }
+               .location-info {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                    p {
+                        font-family: 'Roboto', sans-serif;
+                        text-transform: capitalize;
+                        color: #0050ff;
+                        font-weight: bold;
+                        font-size: 20px;
+                        margin: 0;
+                        color: #dddddd;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: #aaaaaa;
+                        font-family: 'Roboto', sans-serif;
+                        text-transform: capitalize;
+                        margin-top: 10px;
+                        transition: all ease .5s;
+                        &:hover {
+                            color: #0050ff;
+                        }
+
+                    }
+               }
+            }
+       
+    }
+
+
+ 
+}

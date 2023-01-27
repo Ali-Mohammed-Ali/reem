@@ -1,0 +1,51 @@
+
+    .swiper-button-next, .swiper-button-prev,.swiper-scrollbar  {
+        display: none;
+    } 
+    .client-slider-swiper {
+        overflow: hidden;
+        width: 300px;
+
+        .img {
+            transform: scale(1);
+
+            transition: all ease 0.5s;
+            cursor: pointer;
+            &:hover {
+                transform: scale(1.1);
+                
+            }
+            &:hover img {
+                filter: grayscale(0);
+            }
+            img {
+                max-width: 100%;
+                filter: grayscale(1);
+                transition: all ease 0.5s;
+            }
+        }
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        color: white;
+        h5 {
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+            font-weight: bold;
+            margin: 0;
+            margin-top: 40px;
+            font-size: 25px;
+        }
+        p {
+            text-align: justify;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            font-size: 12px;
+        }
+    }
+
+
+

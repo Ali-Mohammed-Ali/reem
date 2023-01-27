@@ -1,0 +1,99 @@
+.header-container {
+    background-color: #191a1c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    .logo {
+        margin: 20px 0;
+        img {
+            max-width: 60%;
+            
+        }
+    }
+    .links {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            gap: 20px;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            .active {
+                color: #0050ff;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+                transition: all ease .5s;
+                
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+
+        }
+        
+    }
+    .menu-icon {
+        display: none;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        transition: all ease .5s;
+        &:hover {
+            color: #0050ff;
+        }
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 147px;
+        right: 0;
+        background-color: #191a1c;
+        width: 100%;
+
+        transition: all ease 0.5s;
+        z-index: 2;
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            list-style: none;
+            gap: 20px;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            transition: all .5s ease;
+            font-weight: bold;
+
+            a {
+                color: white;
+                text-decoration: none;
+                transition: all ease .5s;
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 700px) {
+    .header-container {
+        .links {
+            display: none;
+        }
+        .menu-icon {
+            display: flex;
+        }
+        .menu {
+            display: flex;
+        }
+    }
+}
