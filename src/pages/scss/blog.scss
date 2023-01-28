@@ -41,11 +41,17 @@
             }
             .info {
                 h5 {
+                    font-family: "Roboto", sans-serif;
+                    font-weight: bold;
+                    text-transform: uppercase;
                     color: #0050ff;
                     transition: all ease 0.5s;
                     &:hover {
                         color: #3e7bff;
                     }
+                }
+                p {
+                    margin: 0;
                 }
 
             }

@@ -323,10 +323,10 @@
           padding: 20px;
           border-radius: 10px;
           transition: all ease 0.5s;
+          border: 1px solid #0050ff;
           cursor: pointer;
           &:hover {
             background-color: transparent;
-            border: 1px solid #0050ff;
           }
           a {
             text-decoration: none;
@@ -343,9 +343,9 @@
           border-radius: 10px;
           transition: all ease 0.5s;
           cursor: pointer;
+          border: 1px solid #0050ff;
           &:hover {
             background-color: transparent;
-            border: 1px solid #0050ff;
           }
           a {
             text-decoration: none;
