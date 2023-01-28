@@ -1,0 +1,54 @@
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:  70px 100px;
+    h4 {
+        color: #0050ff;
+        text-transform: uppercase;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .blogs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        a {
+            text-decoration: none;
+        }
+        .blog {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            .img {
+                width: 400px;
+                height: 400px;
+                overflow: hidden;
+                &:hover img {
+                    max-width: 110%;
+                    filter: grayscale(0);
+                }
+                img {
+                    max-width: 100%;
+                    transition: all ease 0.5s;
+                    filter: grayscale(1);
+                }
+            }
+            .info {
+                h5 {
+                    color: #0050ff;
+                    transition: all ease 0.5s;
+                    &:hover {
+                        color: #3e7bff;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.contactme-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h4 {
+        color: #0050ff;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    form {
+        position: relative;
+        background-color: white;
+        border-radius: 20px;
+        width: 800px;
+        padding: 100px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        .names {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            .name {
+                color: #0050ff;
+                font-family: "Roboto", sans-serif;
+                text-transform: capitalize;
+                font-weight: 600;
+
+                input {
+                    border: none;
+                    border-bottom: 1px solid #0050ff;
+                    padding: 10px;
+                    outline: 0;
+                }
+            }
+        }
+        .email-subject {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            .email {
+                color: #0050ff;
+                font-family: "Roboto", sans-serif;
+                text-transform: capitalize;
+                font-weight: 600;
+                input {
+                    border: none;
+                    border-bottom: 1px solid #0050ff;
+                    padding: 10px;
+                    outline: 0;
+                }
+            }
+            .subject {
+                color: #0050ff;
+                font-family: "Roboto", sans-serif;
+                text-transform: capitalize;
+                font-weight: 600;
+                input {
+                    border: none;
+                    border-bottom: 1px solid #0050ff;
+                    padding: 10px;
+                    outline: 0;
+                }
+            }
+        }
+        .message {
+            color: #0050ff;
+            font-family: "Roboto", sans-serif;
+            text-transform: capitalize;
+            font-weight: 600;
+            textarea {
+                border: none;
+                border-bottom: 1px solid #0050ff;
+                padding: 10px;
+                outline: 0;
+                width: 400px;
+            }
+        }
+    }
+    button {
+        background-color: #0050ff;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        border: none;
+        padding: 10px ;
+        width: 300px;
+        border-radius: 50px;
+        border: 2px solid #0050ff;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        &:hover {
+            background-color: transparent;
+            color: #0050ff;
+        }
+    }
+    .img {
+        position: absolute;
+        bottom: 0;
+        right: -100px;
+        width: 250px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
