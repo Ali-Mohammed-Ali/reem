@@ -35,11 +35,12 @@ function ContactMe() {
           <br />
           <textarea type="text" id="message" />
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" className="send">Send</button>
         <div className="img">
           <img src={Cup} alt="Let's Talk" />
         </div>
       </form>
+      <a href="tel:+2011 44 200 465">call me</a>
     </div>
   );
 }

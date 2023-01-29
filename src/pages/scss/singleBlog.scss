@@ -1,0 +1,104 @@
+.single-blog-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    .path {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .home {
+            a {
+                text-decoration: none;
+                color: white;
+                transition: all ease 0.5s;
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+        }
+        .arrow {
+            color: white;
+        }
+        .blogs-page {
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                transition: all ease 0.5s;
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+        }
+        .blog-single-page {
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                transition: all ease 0.5s;
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+        }
+    }
+    .head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        .img {
+            width: 1200px;
+            overflow: hidden;
+            object-fit: contain;
+            img {
+                max-width: 100%;
+            }
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start;
+            justify-content: center;
+            h4 {
+                margin: 0;
+                font-family: 'Roboto', sans-serif;
+                text-transform: capitalize;
+                color: #0050ff;
+                font-weight: bold;
+                font-size: 30px;
+            }
+            p {
+                margin: 0;
+                font-family: 'Roboto', sans-serif;
+                text-transform: capitalize;
+                color: #aaa;
+                span {
+                    color: white;
+                }
+            }
+        }
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+        p {
+            text-align: justify;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+
+        }
+    }
+}

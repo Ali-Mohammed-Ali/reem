@@ -41,34 +41,7 @@ function AboutMe() {
           </p>
         </div>
         {/* End desc  */}
-        {/* start skills section  */}
-        <div className="skills">
-          <div className="skill-one">
-            <div className="presentage">
-              <span></span>
-            </div>
-            <p>powerpoint</p>
-          </div>
-          <div className="skill-two">
-            <div className="presentage">
-              <span></span>
-            </div>
-            <p>Word</p>
-          </div>
-          <div className="skill-three">
-            <div className="presentage">
-              <span></span>
-            </div>
-            <p>Excel</p>
-          </div>
-          <div className="skill-four">
-            <div className="presentage">
-              <span></span>
-            </div>
-            <p>Adobe Photoshop</p>
-          </div>
-        </div>
-        {/* end skills section  */}
+
         {/* start qoute section  */}
         <div className="qoute-section">
           <div className="img">

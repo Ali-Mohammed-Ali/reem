@@ -16,6 +16,8 @@ import {
   faAngleUp,
   faQuoteLeft,
   faQuoteRight,
+  faHouseChimney,
+  faCircleRight
 } from "@fortawesome/free-solid-svg-icons";
 
 import { BrowserRouter } from "react-router-dom";
@@ -30,7 +32,9 @@ library.add(
   faEnvelope,
   faAngleUp,
   faQuoteLeft,
-  faQuoteRight
+  faQuoteRight,
+  faHouseChimney,
+  faCircleRight
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
