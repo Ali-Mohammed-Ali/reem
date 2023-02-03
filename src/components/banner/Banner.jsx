@@ -21,6 +21,14 @@ function Banner() {
           <div className="location-info">
             <p>egypt</p>
           </div>
+          <span></span>
+          <div className="location-info">
+            <p>UAE</p>
+          </div>
+          <span></span>
+          <div className="location-info">
+            <p>USA</p>
+          </div>
         </div>
       </div>
     </div>

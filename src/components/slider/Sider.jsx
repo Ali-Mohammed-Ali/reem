@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import { Navigation } from "swiper";
+import { Navigation, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import blogOne from "../../assets/blog-01.jpeg";
 import blogTwo from "../../assets/blog-02.jpeg";
@@ -20,7 +20,7 @@ function Slider() {
       <Swiper
         style={{ width: 1000 }}
         // install Swiper modules
-        modules={[Navigation]}
+        modules={[Navigation, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={3}
         navigation

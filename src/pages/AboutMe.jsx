@@ -164,66 +164,70 @@ function AboutMe() {
             <h4>recent projects</h4>
           </div>
           <div className="projects">
-            <Link to="/Projects">
-              <div className="project">
-                <div className="img">
-                  <img src={project} alt="" />
+            <div className="project-first-row">
+              <Link to="/Projects">
+                <div className="project-horezental">
+                  <div className="img">
+                    <img src={project} alt="" />
+                  </div>
+                  <div className="info-horezental">
+                    <p>biznex4</p>
+                  </div>
                 </div>
-                <div className="info">
-                  <p>biznex4</p>
+              </Link>
+              <Link to="/Projects">
+                <div className="project-vertical">
+                  <div className="img">
+                    <img src={project} alt="" />
+                  </div>
+                  <div className="info-vertical">
+                    <p>biznex4</p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-            <Link to="/Projects">
-              <div className="project">
-                <div className="img">
-                  <img src={project} alt="" />
+              </Link>
+              <Link to="/Projects">
+                <div className="project-horezental">
+                  <div className="img">
+                    <img src={project} alt="" />
+                  </div>
+                  <div className="info-horezental">
+                    <p>biznex4</p>
+                  </div>
                 </div>
-                <div className="info">
-                  <p>biznex4</p>
+              </Link>
+            </div>
+            <div className="project-second-row">
+              <Link to="/Projects">
+                <div className="project-vertical">
+                  <div className="img">
+                    <img src={project} alt="" />
+                  </div>
+                  <div className="info-vertical">
+                    <p>biznex4</p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-            <Link to="/Projects">
-              <div className="project">
-                <div className="img">
-                  <img src={project} alt="" />
+              </Link>
+              <Link to="/Projects">
+                <div className="project-horezental">
+                  <div className="img">
+                    <img src={project} alt="" />
+                  </div>
+                  <div className="info-horezental">
+                    <p>biznex4</p>
+                  </div>
                 </div>
-                <div className="info">
-                  <p>biznex4</p>
+              </Link>
+              <Link to="/Projects">
+                <div className="project-vertical">
+                  <div className="img">
+                    <img src={project} alt="" />
+                  </div>
+                  <div className="info-vertical">
+                    <p>biznex4</p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-            <Link to="/Projects">
-              <div className="project">
-                <div className="img">
-                  <img src={project} alt="" />
-                </div>
-                <div className="info">
-                  <p>biznex4</p>
-                </div>
-              </div>
-            </Link>
-            <Link to="/Projects">
-              <div className="project">
-                <div className="img">
-                  <img src={project} alt="" />
-                </div>
-                <div className="info">
-                  <p>biznex4</p>
-                </div>
-              </div>
-            </Link>
-            <Link to="/Projects">
-              <div className="project">
-                <div className="img">
-                  <img src={project} alt="" />
-                </div>
-                <div className="info">
-                  <p>biznex4</p>
-                </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
           </div>
         </div>
         {/* end project section  */}

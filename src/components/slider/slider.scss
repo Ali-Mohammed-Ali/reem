@@ -3,13 +3,21 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 80px;
-    .swiper-button-next, .swiper-button-prev,.swiper-scrollbar  {
-        display: none;
+    margin-top: 200px;
+        
+    .swiper-button-next::after  {
+        font-weight: 900;
     } 
+    .swiper-button-prev::after{
+        font-weight: 900;
+    }
+
+    .swiper-scrollbar-drag {
+        background-color: #0050ff;
+    }
     .slider-title {
         h4 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             font-weight: bold;
             text-transform: uppercase;
             color: #0050ff;
@@ -44,7 +52,7 @@
         justify-content: center;
         color: white;
         h5 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             text-transform: capitalize;
             font-weight: bold;
             margin: 0;
@@ -53,7 +61,7 @@
         }
         p {
             text-align: justify;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             line-height: 1.8;
             font-size: 12px;
         }

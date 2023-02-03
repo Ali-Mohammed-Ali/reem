@@ -7,7 +7,7 @@ background-size:cover;
         padding-left: 300px;
 
         h3 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             text-transform: capitalize;
             color: #0050ff;
             font-weight: bold;
@@ -18,11 +18,10 @@ background-size:cover;
         h2 {
             .Typewriter  {
                 color: white;
-                font-family: 'Roboto', sans-serif;
-                font-size: 50px;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+                font-size: 64px;
                 text-transform: uppercase;
-                font-weight: bold;
-    
+                font-weight: 800;
             }
             
         }
@@ -30,12 +29,13 @@ background-size:cover;
                 display: flex;
                 align-items:center;
                 justify-content: flex-start;
-                margin-top: 60px;                
+                margin-top: 10px;                
                 gap: 20px;
                 span {
                     height: 40px;
                     width: 0.2px;
                     background-color: #aaaaaa;
+                    opacity: 0.3;
                 }
                .location-info {
                 display: flex;
@@ -43,7 +43,7 @@ background-size:cover;
                 justify-content: center;
                 flex-direction: column;
                     p {
-                        font-family: 'Roboto', sans-serif;
+                        font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
                         text-transform: capitalize;
                         color: #0050ff;
                         font-weight: bold;
@@ -54,7 +54,7 @@ background-size:cover;
                     a {
                         text-decoration: none;
                         color: #aaaaaa;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
                         text-transform: capitalize;
                         margin-top: 10px;
                         transition: all ease .5s;

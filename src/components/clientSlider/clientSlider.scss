@@ -1,9 +1,15 @@
 
-    .swiper-button-next, .swiper-button-prev,.swiper-scrollbar  {
-        display: none;
+    .swiper-button-next::after  {
+        font-weight: 900;
     } 
+    .swiper-button-prev::after{
+        font-weight: 900;
+    }
+
+    .swiper-scrollbar-drag {
+        background-color: #0050ff;
+    }
     .client-slider-swiper {
-        overflow: hidden;
         width: 300px;
 
         .img {
@@ -32,7 +38,7 @@
         justify-content: center;
         color: white;
         h5 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             text-transform: capitalize;
             font-weight: bold;
             margin: 0;
@@ -41,7 +47,7 @@
         }
         p {
             text-align: justify;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             line-height: 1.8;
             font-size: 12px;
         }
