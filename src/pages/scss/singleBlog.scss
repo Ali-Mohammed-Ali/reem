@@ -29,7 +29,7 @@
                 text-decoration: none;
                 color: white;
                 text-transform: uppercase;
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
                 font-weight: bold;
                 transition: all ease 0.5s;
                 &:hover {
@@ -42,7 +42,7 @@
                 text-decoration: none;
                 color: white;
                 text-transform: uppercase;
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
                 font-weight: bold;
                 transition: all ease 0.5s;
                 &:hover {
@@ -60,18 +60,20 @@
             width: 1200px;
             overflow: hidden;
             object-fit: contain;
+            margin-top: 30px;
             img {
                 max-width: 100%;
             }
         }
         .info {
             display: flex;
-            flex-direction: column;
-            align-content: flex-start;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
             justify-content: center;
             h4 {
                 margin: 0;
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
                 text-transform: capitalize;
                 color: #0050ff;
                 font-weight: bold;
@@ -79,11 +81,39 @@
             }
             p {
                 margin: 0;
-                font-family: 'Roboto', sans-serif;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
                 text-transform: capitalize;
                 color: #aaa;
                 span {
                     color: white;
+                }
+            }
+        }
+        .table-of-content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: white;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+            width: 1200px;
+            .category {
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+                font-weight: bold;
+                text-transform: capitalize;
+                font-size: 20px;
+                color: #0050ff;
+                margin-left: 20px;
+                span {
+                    color: #151515;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color:#151515;
+                    transition: all ease 0.5s;
+                    &:hover {
+                        color: #0050ff;
+                    }
                 }
             }
         }
@@ -96,7 +126,7 @@
         p {
             text-align: justify;
             color: white;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             line-height: 1.8;
 
         }
