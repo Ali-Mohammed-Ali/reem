@@ -1,0 +1,51 @@
+.single-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .path {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        .home {
+            a {
+                text-decoration: none;
+                color: white;
+                transition: all ease 0.5s;
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+        }
+        .arrow {
+            color: white;
+        }
+        .projects-page {
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+                font-weight: bold;
+                transition: all ease 0.5s;
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+        }
+        .single-project-page {
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+                font-weight: bold;
+                transition: all ease 0.5s;
+                &:hover {
+                    color: #0050ff;
+                }
+            }
+        }
+    }
+}

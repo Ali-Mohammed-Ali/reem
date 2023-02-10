@@ -8,7 +8,7 @@ import Blog from "./pages/Blog";
 import Projects from "./pages/Projects";
 import ContactMe from "./pages/ContactMe";
 import SingleBlog from "./pages/SingleBlog";
-import singleProjectPage from "./pages/single-project-page";
+import SingleProjectPage from "./pages/SingleProjectPage";
 function App() {
   return (
     <div className="App">
@@ -23,7 +23,7 @@ function App() {
           <Route path="/Blog" element={<Blog />} />
           <Route path="/ContactMe" element={<ContactMe />} />
           <Route path="/SingleBlog" element={<SingleBlog />} />
-          <Route path="/singleProjectPage" element={<singleProjectPage />} />
+          <Route path="/singleProjectPage" element={<SingleProjectPage />} />
         </Routes>
       </main>
       <footer>
