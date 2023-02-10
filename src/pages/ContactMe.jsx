@@ -1,7 +1,9 @@
 import React from "react";
+import { useState } from "react";
 import "./scss/contactme.scss";
 import Cup from "../assets/cup.png";
 function ContactMe() {
+  const [title, setTitle] = useState("call me");
   return (
     <div className="contactme-container">
       <h4>Let's Talk</h4>
@@ -35,12 +37,21 @@ function ContactMe() {
           <br />
           <textarea type="text" id="message" />
         </div>
-        <button type="submit" className="send">Send</button>
+        <button type="submit" className="send">
+          Send
+        </button>
         <div className="img">
           <img src={Cup} alt="Let's Talk" />
         </div>
       </form>
-      <a href="tel:+2011 44 200 465">call me</a>
+      <a
+        href="tel:+2011 44 200 465"
+        onClick={() => {
+          setTitle("+2011 44 200 465");
+        }}
+      >
+        {title}
+      </a>
     </div>
   );
 }
