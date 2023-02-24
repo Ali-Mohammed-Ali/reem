@@ -1,15 +1,15 @@
 .banner-container {
 background-image: url(../../assets/Reem-Dissoky.jpg);
-height: 1000px;
+height: 80vh;
 background-size:cover;
     .info {
         padding-top: 300px;
-        padding-left: 300px;
+        padding-left: 200px;
 
         h3 {
             font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             text-transform: capitalize;
-            color: #0050ff;
+            color: black;
             font-weight: bold;
             font-size: 30px;
             margin: 0;
@@ -25,46 +25,65 @@ background-size:cover;
             }
             
         }
-        .location {
-                display: flex;
-                align-items:center;
-                justify-content: flex-start;
-                margin-top: 10px;                
-                gap: 20px;
-                span {
-                    height: 40px;
-                    width: 0.2px;
-                    background-color: #aaaaaa;
-                    opacity: 0.3;
-                }
-               .location-info {
-                display: flex;
-                align-items: flex-start;
-                justify-content: center;
-                flex-direction: column;
-                    p {
-                        font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
-                        text-transform: capitalize;
-                        color: #0050ff;
-                        font-weight: bold;
-                        font-size: 20px;
-                        margin: 0;
-                        color: #dddddd;
-                    }
-                    a {
-                        text-decoration: none;
-                        color: #aaaaaa;
-                        font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
-                        text-transform: capitalize;
-                        margin-top: 10px;
-                        transition: all ease .5s;
-                        &:hover {
-                            color: #0050ff;
-                        }
-
-                    }
-               }
+        .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            margin-top: 100px;
+            .resume {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: white;
+              padding: 10px;
+              border-radius: 10px;
+              transition: all ease 0.5s;
+              border: 1px solid white;
+              width: 100px;
+              cursor: pointer;
+              &:hover {
+                background-color: transparent;
+              }
+              &:hover a {
+                color: white;
+              }
+              a {
+                text-decoration: none;
+                color: #0050ff;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 900;
+              }
             }
+            .project {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 100px;
+              background-color: white;
+              padding: 10px;
+              border-radius: 10px;
+              transition: all ease 0.5s;
+              cursor: pointer;
+              border: 1px solid white;
+              &:hover {
+                background-color: transparent;
+              }
+              &:hover a {
+                color: white;
+              }
+              a {
+                text-decoration: none;
+                color: #0050ff;
+                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+                text-transform: uppercase;
+                font-size: 15px;
+                font-weight: 900;
+              }
+            }
+          }
        
     }
 

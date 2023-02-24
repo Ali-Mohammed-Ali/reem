@@ -16,12 +16,27 @@
         background-color: #0050ff;
     }
     .slider-title {
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         h4 {
-            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
-            font-weight: bold;
+            font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+            font-weight: 900;
             text-transform: uppercase;
+            text-align: center;
             color: #0050ff;
             font-size: 40px;
+            margin: 0;
+            margin-top: 80px;
+            margin-bottom: 20px;
+        }
+        span {
+            
+            background-color: white;
+            width: 150px;
+            height: 0.5px;
         }
     } 
     .slide {

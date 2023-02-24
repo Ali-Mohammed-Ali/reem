@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../components/banner/Banner";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import boat from "../assets/boat.png";
+import ReemPic from "../assets/reem-pic.jpg";
 import books from "../assets/books.png";
 import branding from "../assets/branding.jpg";
 import advertising from "../assets/advertising.jpg";
@@ -13,6 +13,7 @@ import "./scss/aboutme.scss";
 import { Link } from "react-router-dom";
 import Slider from "../components/slider/Sider";
 import ClientSlider from "../components/clientSlider/ClientSlider";
+import ReemHand from "../assets/about-me.jpg";
 function AboutMe() {
   return (
     <div className="aboutme-container">
@@ -39,13 +40,16 @@ function AboutMe() {
             my work, and that's why my passion for uplifting your business never
             stops.
           </p>
+          <div className="img">
+            <img src={ReemHand} alt="" />
+          </div>
         </div>
         {/* End desc  */}
 
         {/* start qoute section  */}
         <div className="qoute-section">
           <div className="img">
-            <img src={boat} alt="qoute" />
+            <img src={ReemPic} alt="qoute" />
           </div>
           <div className="info">
             <div className="qoute-icon">
@@ -66,10 +70,11 @@ function AboutMe() {
         {/* end qoute section  */}
         {/* start why me section  */}
         <div className="why-me-section">
+          <div className="title">
+            <h4>why me ?</h4>
+            <span></span>
+          </div>
           <div className="info">
-            <div className="title">
-              <h4>why me ?</h4>
-            </div>
             <div className="content">
               <p>
                 Am I the right person for this job? -I hear you wonder. Let's be
@@ -83,9 +88,9 @@ function AboutMe() {
                 with, again in the near future.
               </p>
             </div>
-          </div>
-          <div className="img">
-            <img src={books} alt="why me" />
+            <div className="img">
+              <img src={books} alt="why me" />
+            </div>
           </div>
         </div>
         {/* end why me section  */}
@@ -93,6 +98,7 @@ function AboutMe() {
         <div className="what-i-do">
           <div className="title">
             <h4>what i do ?</h4>
+            <span></span>
           </div>
           <div className="jobs">
             <div className="job-title">
@@ -148,20 +154,12 @@ function AboutMe() {
           </div>
         </div>
         {/* end what i do  */}
-        {/* start buttons  */}
-        <div className="buttons">
-          <div className="resume">
-            <Link to="/Resume">resume</Link>
-          </div>
-          <div className="project">
-            <Link to="/Projects">projects</Link>
-          </div>
-        </div>
-        {/* end buttons  */}
+
         {/* start project section  */}
         <div className="project-section">
           <div className="title">
             <h4>recent projects</h4>
+            <span></span>
           </div>
           <div className="projects">
             <div className="project-first-row">
@@ -240,9 +238,13 @@ function AboutMe() {
         <div className="testimonials-section">
           <div className="title">
             <h4>WHAT PEOPLE SAY ?</h4>
+            <span></span>
           </div>
           <div className="testimonials">
             <div className="testimonial">
+              <div className="img">
+                <img src={project} alt="" />
+              </div>
               <div className="info">
                 <h5 className="name">Sherif Rostom</h5>
                 <p className="job-title">
@@ -255,14 +257,11 @@ function AboutMe() {
                   proud to have such a dedicated employee.
                 </p>
               </div>
-              <div className="message-icon">
-                <FontAwesomeIcon icon="fa-quote-right" />
-              </div>
-              <div className="img" style={{ marginTop: 45 }}>
-                <img src={project} alt="" />
-              </div>
             </div>
             <div className="testimonial">
+              <div className="img">
+                <img src={radwa} alt="" />
+              </div>
               <div className="info">
                 <h5 className="name">Radwa Ehab</h5>
                 <p className="job-title">~ Senior Sales Consultant</p>
@@ -276,14 +275,11 @@ function AboutMe() {
                   with her.
                 </p>
               </div>
-              <div className="message-icon">
-                <FontAwesomeIcon icon="fa-quote-right" />
-              </div>
-              <div className="img">
-                <img src={radwa} alt="" />
-              </div>
             </div>
             <div className="testimonial">
+              <div className="img">
+                <img src={mohammed} alt="" />
+              </div>
               <div className="info">
                 <h5 className="name">Mohamed Saeed</h5>
                 <p className="job-title">~ Finance Account Manager</p>
@@ -291,12 +287,6 @@ function AboutMe() {
                   A committed, creative, passionate, and professional
                   individual.
                 </p>
-              </div>
-              <div className="message-icon">
-                <FontAwesomeIcon icon="fa-quote-right" />
-              </div>
-              <div className="img" style={{ marginTop: 105 }}>
-                <img src={mohammed} alt="" />
               </div>
             </div>
           </div>
@@ -307,6 +297,7 @@ function AboutMe() {
         <div className="clients-section">
           <div className="title">
             <h4>Clients</h4>
+            <span></span>
           </div>
           <div className="client-slider">
             <ClientSlider />

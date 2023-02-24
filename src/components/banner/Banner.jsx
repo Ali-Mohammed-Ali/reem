@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 import "./banner.scss";
 function Banner() {
   return (
@@ -16,20 +17,16 @@ function Banner() {
             }}
           />
         </h2>
-        <div className="location">
-          <span></span>
-          <div className="location-info">
-            <p>egypt</p>
+        {/* start buttons  */}
+        <div className="buttons">
+          <div className="resume">
+            <Link to="/Resume">resume</Link>
           </div>
-          <span></span>
-          <div className="location-info">
-            <p>UAE</p>
-          </div>
-          <span></span>
-          <div className="location-info">
-            <p>USA</p>
+          <div className="project">
+            <Link to="/Projects">projects</Link>
           </div>
         </div>
+        {/* end buttons  */}
       </div>
     </div>
   );

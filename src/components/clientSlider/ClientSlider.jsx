@@ -27,7 +27,7 @@ function ClientSlider() {
       // install Swiper modules
       modules={[Navigation, Scrollbar, A11y]}
       spaceBetween={50}
-      slidesPerView={3}
+      slidesPerView={4}
       navigation
       pagination={{ clickable: false }}
       scrollbar={{ draggable: false }}

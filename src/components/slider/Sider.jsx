@@ -16,9 +16,10 @@ function Slider() {
     <div className="slider">
       <div className="slider-title">
         <h4>recent blogs</h4>
+        <span></span>
       </div>
       <Swiper
-        style={{ width: 1000 }}
+        style={{ width: 1040 }}
         // install Swiper modules
         modules={[Navigation, Scrollbar, A11y]}
         spaceBetween={50}

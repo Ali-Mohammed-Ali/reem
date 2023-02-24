@@ -6,6 +6,7 @@
             justify-content: center;
             flex-direction: column;
             margin-bottom: 20px;
+            margin-top: 50px;
           h4 {
             font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             font-weight: 900;
@@ -24,14 +25,20 @@
           }
         }
         .desc {
-          width: 800px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 200px;
+          width: 1040px;
           margin: auto;
+          margin-top: 80px;
           p {
             font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
             color: white;
             text-align: justify;
             font-size: 16px;
             line-height: 1.8;
+            margin: 0;
           }
         }
     }
@@ -39,9 +46,15 @@
     .qoute-section {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 450px;
-      margin-top: 80px;
+      justify-content: space-between;
+      gap: 40px;
+      margin: auto;
+      margin-top: 100px;
+      width: 1040px;
+      .img {
+        background-color: white;
+        padding: 20px;
+      }
         .info {
           display: flex;
           flex-direction: column;
@@ -75,27 +88,31 @@
       }
       .why-me-section {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 1200px;
+        flex-direction: column;
+        width: 1040px;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 50px;
         gap: 50px;
+
+        .title {
+          h4 {
+            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #0050ff;
+          }
+          span {
+            height: 0.5px;
+            width: 150px;
+             background-color: white;
+          }
+        }
         .info {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           align-items: flex-start;
-          justify-content: flex-start;
-          width: 500px;
-          gap: 30px;
-          .title {
-            h4 {
-              font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
-              font-weight: 900;
-              text-transform: uppercase;
-              color: #0050ff;
-            }
-          }
+          justify-content: space-between;
+          gap: 200px;
           .content {
             p {
               font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
@@ -106,24 +123,34 @@
             }
           }
         }
-        .img {
-          width: 400px;
-          img {
-            max-width: 100%;
-          }
-        }
       }
       .what-i-do {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 80px;
+        width: 1040px;
+        margin: auto;
+        .title {
+          
+          h4 {
+            font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #0050ff;
+          }
+          span {
+            height: 0.5px;
+            width: 150px;
+            background-color: white;
+          }
+        }
         .jobs {
           display: flex;
           align-items: flex-start;
           justify-content: space-around;
           gap: 60px;
+          margin-top: 50px;
           .job-title {
             display: flex;
             flex-direction: column;
@@ -139,19 +166,22 @@
               }
             }
             .title {
+              width: 300px;
+              height: 60px;
               background-color: #0050ff;
+              margin: 20px 0;
               h5 {
                 color: white;
-                font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
+                font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+                font-size: 30px;
                 font-weight: 900;
                 text-transform: uppercase;
-                font-size: 25px;
                 margin: 0;
-                padding: 10px 20px;
               }
             }
             .desc {
               width: 311px;
+              margin: 0;
               p {
                 color: white;
                 font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
@@ -162,84 +192,42 @@
           } 
         }
       }
-      .buttons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 100px;
-        margin-top: 100px;
-        .resume {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-color: #0050ff;
-          padding: 20px;
-          border-radius: 10px;
-          transition: all ease 0.5s;
-          border: 1px solid #0050ff;
-          width: 200px;
-          cursor: pointer;
-          &:hover {
-            background-color: transparent;
-          }
-          a {
-            text-decoration: none;
-            color: white;
-            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
-            text-transform: uppercase;
-            font-size: 25px;
-            font-weight: 900;
-          }
-        }
-        .project {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 200px;
-          background-color: #0050ff;
-          padding: 20px;
-          border-radius: 10px;
-          transition: all ease 0.5s;
-          cursor: pointer;
-          border: 1px solid #0050ff;
-          &:hover {
-            background-color: transparent;
-          }
-          a {
-            text-decoration: none;
-            color: white;
-            font-family: 'Nunito Sans', Arial, Helvetica, sans-serif ;
-            text-transform: uppercase;
-            font-size: 25px;
-            font-weight: 900;
-          }
-        }
-      }
+
       .project-section {
         margin-top: 80px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        .title {
+          margin-bottom: 60px;
+          span {
+            height: 0.5px;
+            width: 150px;
+            background-color: white;
+          }
+        }
         .projects {
           position: relative;
           display: flex;
           align-items: flex-start;
           justify-content: center;
           flex-wrap: wrap;
-          width: 1300px;
+          width: 1040px;
           .project-first-row {
+            position: relative;
             display: flex;
             align-items: flex-start;
-            justify-content: center;
-            gap: 30px;
+            justify-content: flex-start;
+            gap: 15px;
+            margin-bottom: 50px;
             .project-horezental {
               position: relative;
               display: flex;
-              align-items: center;
+              align-items: flex-end;
               justify-content: center;
-              width: 428px;
-              height: 428px;
+              width: 346.67px;
+              height: 353.97px;
               overflow: hidden;
               transition: all ease 0.5s;
               &:hover {
@@ -249,11 +237,12 @@
                 opacity: 1;
               }
               .img {
-                width: 428px;
+                width: 346.7px;
                 cursor: pointer;
                 filter: grayscale(1);
                 transform: scale(1);
                 transition: all ease 0.5s;
+                overflow: hidden;
                 &:hover {
                   filter: grayscale(0);
                   transform: scale(1.2);
@@ -290,7 +279,7 @@
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 428px;
+              width: 346.67px;
               height: 285px;
               overflow: hidden;
               transition: all ease 0.5s;
@@ -301,11 +290,12 @@
                 opacity: 1;
               }
               .img {
-                width: 428px;
+                width: 346.67px;
                 cursor: pointer;
                 filter: grayscale(1);
                 transform: scale(1);
                 transition: all ease 0.5s;
+                overflow: hidden;
                 &:hover {
                   filter: grayscale(0);
                   transform: scale(1.2);
@@ -343,16 +333,16 @@
             top: 75%;
             left: -1.5%;
             display: flex;
-            gap: 30px;
+            gap: 15px;
             align-items: flex-end;
             justify-content: center;
             .project-horezental {
               position: relative;
               display: flex;
-              align-items: center;
+              align-items: flex-end;
               justify-content: center;
-              width: 428px;
-              height: 428px;
+              width: 346.67px;
+              height: 353.97px;
               overflow: hidden;
               transition: all ease 0.5s;
               &:hover {
@@ -362,11 +352,12 @@
                 opacity: 1;
               }
               .img {
-                width: 428px;
+                width: 346.7px;
                 cursor: pointer;
                 filter: grayscale(1);
                 transform: scale(1);
                 transition: all ease 0.5s;
+                overflow: hidden;
                 &:hover {
                   filter: grayscale(0);
                   transform: scale(1.2);
@@ -404,7 +395,7 @@
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 428px;
+              width: 346.67px;
               height: 285px;
               overflow: hidden;
               transition: all ease 0.5s;
@@ -415,11 +406,12 @@
                 opacity: 1;
               }
               .img {
-                width: 428px;
+                width: 346.67px;
                 cursor: pointer;
                 filter: grayscale(1);
                 transform: scale(1);
                 transition: all ease 0.5s;
+                overflow: hidden;
                 &:hover {
                   filter: grayscale(0);
                   transform: scale(1.2);
@@ -458,20 +450,23 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         margin-top: 80px;
+        width: 1040px;
+        margin: auto;
         .testimonials {
           display: flex;
           align-items: flex-start;
-          justify-content: center;
-          gap: 50px;
+          justify-content: flex-start;
           margin-top: 80px;
+          gap: 70px;
           .testimonial {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            width: 400px;
+            justify-content: flex-start;
+            width: 300px;
+            height: 382px;
             .img {
               width: 100px;
               height: 100px;
@@ -516,5 +511,8 @@
       .clients-section {
         margin-top: 80px;
         margin-bottom: 140px;
+        .title {
+          margin-bottom: 50px;
+        }
       }
 }
